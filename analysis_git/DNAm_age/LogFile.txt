@@ -1,0 +1,73 @@
+The methylation data set contains 96 samples (e.g. arrays) and  302095  probes.
+ Warnings were generated for the following samples.
+ GSM2818036_3999337016_R04C01 
+ Hint: Check the output file for more details. 
+ Warnings were generated for the following samples.
+ GSM2818038_3999337016_R05C01 
+ Hint: Check the output file for more details. 
+ Warnings were generated for the following samples.
+ GSM2818040_3999337016_R06C01 
+ Hint: Check the output file for more details. 
+ Warnings were generated for the following samples.
+ GSM2818044_3999337056_R02C01 
+ Hint: Check the output file for more details. 
+ Warnings were generated for the following samples.
+ GSM2818086_3999492111_R05C01 
+ Hint: Check the output file for more details. 
+ Warnings were generated for the following samples.
+ GSM2818088_3999492111_R06C01 
+ Hint: Check the output file for more details. 
+ Warnings were generated for the following samples.
+ GSM2818102_3999492109_R01C01 
+ Hint: Check the output file for more details. 
+ Warnings were generated for the following samples.
+ GSM2818116_3999442036_R02C01 
+ Hint: Check the output file for more details. 
+ Warnings were generated for the following samples.
+ GSM2818126_3999442005_R01C01 
+ Hint: Check the output file for more details. 
+ Warnings were generated for the following samples.
+ GSM2818140_3999442078_R02C01 
+ Hint: Check the output file for more details. 
+ Warnings were generated for the following samples.
+ GSM2818142_3999442078_R03C01 
+ Hint: Check the output file for more details. 
+ Warnings were generated for the following samples.
+ GSM2818152_3999442017_R02C01 
+ Hint: Check the output file for more details. 
+ Warnings were generated for the following samples.
+ GSM2818160_3999442017_R06C01 
+ Hint: Check the output file for more details. 
+ Warnings were generated for the following samples.
+ GSM2818170_3999510117_R05C01 
+ Hint: Check the output file for more details. 
+ Warnings were generated for the following samples.
+ GSM2818172_3999510117_R06C01 
+ Hint: Check the output file for more details. 
+ Warnings were generated for the following samples.
+ GSM2818174_3999510115_R01C01 
+ Hint: Check the output file for more details. 
+ Warnings were generated for the following samples.
+ GSM2818176_3999510115_R02C01 
+ Hint: Check the output file for more details. 
+ Warnings were generated for the following samples.
+ GSM2818178_3999510115_R03C01 
+ Hint: Check the output file for more details. 
+ Warnings were generated for the following samples.
+ GSM2818180_3999510115_R04C01 
+ Hint: Check the output file for more details. 
+ Warnings were generated for the following samples.
+ GSM2818182_3999510115_R05C01 
+ Hint: Check the output file for more details. 
+ Warnings were generated for the following samples.
+ GSM2818184_3999510115_R06C01 
+ Hint: Check the output file for more details. 
+ Warnings were generated for the following samples.
+ GSM2818190_3999510116_R03C01 
+ Hint: Check the output file for more details. 
+ Warnings were generated for the following samples.
+ GSM2818192_3999510116_R04C01 
+ Hint: Check the output file for more details. 
+ Warnings were generated for the following samples.
+ GSM2818206_3999492126_R05C01 
+ Hint: Check the output file for more details.
