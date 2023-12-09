@@ -1,4 +1,10 @@
-In this section, I wrote a script to build boxplots to evaluate my machine learning (ML) model by comparing its classification of Alzheimer's disease (AD) patients with clinical categorizations. Our primary focus was analyzing chronological and DNA methylation (DNAm) age.
+Please note that I did not develop this script in this folder but rather used Steve Horvath's script that accompanied his "DNA methylation age of human tissues and cell types" paper.
+
+Horvath, S. (2013). DNA methylation age of human tissues and cell types. Genome Biology, 14(10), R115. https://doi.org/10.1186/gb-2013-14-10-r115
+
+-----------------------------------------
+
+In this section, I wrote in the data folder to build boxplots to evaluate my machine learning (ML) model by comparing its classification of Alzheimer's disease (AD) patients with clinical categorizations. Our primary focus was analyzing chronological and DNA methylation (DNAm) age.
 
 **Key Findings and Observations**
 
