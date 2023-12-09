@@ -16,11 +16,11 @@ To determine the significance of these findings, we compared the isolated genes 
 
 Our results showed that 15.89% of genes in cl2 and 46.85% in cl3 matched with known AD genes, bolstering the epigenetic progenitor model's assertion that epigenetic modifications can mirror genetic mutations. The identified differentially methylated CpG sites are potentially linked to gene dysregulation observed in AD progression, offering new perspectives in understanding the disease.
 
-![pie_charts](https://github.com/gastonguaysiu/ML-AD-reclassification/blob/main/analysis_git/out_ML/enrichment/pie_genes.png?raw=true)
+![pie_charts](https://github.com/gastonguaysiu/ML-AD-reclassification/blob/main/analysis_git/out_ML/pie_genes.png?raw=true)
 
 **Enrichment Analysis Using Gene Ontology (GO) Terms**
 
 We extended our analysis to include an enrichment assessment with Gene Ontology (GO) terms. This revealed significant overlaps in enriched GO terms between our ML clusters and those known in AD, suggesting strong functional relationships among the isolated genes. These overlaps were characterized by lower average adjusted p-values and higher average gene counts per enriched GO term, indicating a close association with established Alzheimer's disease GO enrichments.
 
-![GO_overlap](https://github.com/gastonguaysiu/ML-AD-reclassification/blob/main/analysis_git/out_ML/enrichment/GO_share.png?raw=true)
+![GO_overlap](https://github.com/gastonguaysiu/ML-AD-reclassification/blob/main/analysis_git/out_ML/GO_share.png?raw=true)
 
