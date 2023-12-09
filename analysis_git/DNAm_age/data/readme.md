@@ -1,4 +1,4 @@
-In this section, I evaluate our machine learning (ML) model by comparing its classification of Alzheimer's disease (AD) patients with clinical categorizations. Our primary focus was analyzing chronological and DNA methylation (DNAm) age.
+In this section, I wrote a script to build boxplots that evaluates the machine learning (ML) model by comparing its classification of Alzheimer's disease (AD) patients with clinical categorizations. Our primary focus was analyzing chronological and DNA methylation (DNAm) age.
 
 **Key Findings and Observations**
 
