@@ -28,7 +28,7 @@ Phase 4, the Estimation Maximization Optimization, saves the probe list that yie
 
 
 
-**The formulation of the scoring in the EM algorithm --> fitness**
+**The formulation of the scoring in the EM algorithm ==> definition of fitness**
 
 The patient samples were categorized into three groups according to their Braak stage. Group A contained samples with no Alzheimer's disease symptoms or only early-stage signs, specifically Braak stages I and II, comprising 23 patient samples. Group B included patients at Braak stages III and IV, totalling 16 samples. Group C encompassed patient samples at Braak stages V and VI, amounting to 56 samples.
 The scoring metric was established based on the clustering accuracy for each group, with larger groups allowing for greater leniency in sample miscategorization. We employed the following formula to compute a score based on the scoring of each group (eq. 1):
