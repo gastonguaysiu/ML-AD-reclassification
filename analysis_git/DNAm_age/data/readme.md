@@ -1,4 +1,4 @@
-In this section, I wrote a script to build boxplots to evaluate my machine learning (ML) model by comparing its classification of Alzheimer's disease (AD) patients with clinical categorizations. Our primary focus was analyzing chronological and DNA methylation (DNAm) age.
+In this section, I wrote a script to build boxplots to evaluate my machine learning (ML) model by comparing its classification of Alzheimer's disease (AD) patients with clinical categorizations. Our primary focus was analyzing chronological and DNA methylation (DNAm) age. This folder contains all the output data for the analysis on DNAm age
 
 **Key Findings and Observations**
 
@@ -7,11 +7,6 @@ Age-Based Classification Analysis: Comparing clinically categorized and ML-class
 Braak Stage Grouping and Age Trends: An interesting observation was that patients in the intermediate Braak stage group exhibited a higher average age than those in the advanced AD group, evident in both DNAm and chronological age metrics.
 
 Mean Relative Error (MRE) Insights: We observed stronger inconsistencies in MRE when comparing DNAm age with the clinically classified patient group than with our methylated-classified groups.
-
-![clinical_def](https://github.com/gastonguaysiu/ML-AD-reclassification/blob/main/analysis_git/DNAm_age/data/clinical_def.png?raw=true)
-
-![methylation_ML_Def](https://github.com/gastonguaysiu/ML-AD-reclassification/blob/main/analysis_git/DNAm_age/data/meth_def.png?raw=true)
-
 
 **Implications and Validity of the ML Algorithm**
 
