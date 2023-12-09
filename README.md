@@ -3,10 +3,6 @@ ML-alzheimer's disease reclassification using k-means and EM
 
 Estimation Maximization (EM) is a general-purpose iterative algorithm used in machine learning to maximize a posteriori (MAP) estimates of parameters in statistical models; in our case, the parameter is the probes used in the k-means clustering. Given that we know the outcome of the patients, the EM part of the algorithm would be considered supervised, and the K-means would be regarded as unsupervised. EM is beneficial in situations where some of the variables or parameters are unobserved or hidden. The idea behind EM is to alternate between estimating the missing or hidden variables and updating the model parameters based on these estimates. This process continues until the estimates of the model parameters converge to a maximum or a local maximum.
 
-
-This **pre_pie.R** script is designed for processing DNA methylation data. Methylation data is often converted from beta values to M values for statistical analysis. M values are the logit transformation of the beta values and provide a more statistically robust framework for differential analysis. The script then prepares for k-means clustering by extracting the probe IDs from the original dataset and saving them. In k-means clustering, the 'elbow method' is a heuristic used to determine the number of clusters. The elbow graph plots the WSS against the number of clusters, and the 'elbow' point – where the rate of decrease sharply changes – suggests the appropriate number of clusters. A function is called to create this plot for up to 10 clusters. The script involves several steps denoted below.
-
-
 **The differential methylation EM K-means workflow comprises the following steps.**
 
 Phases 1-3 of the EM k-means algorithm use the **pip5.R** script.
