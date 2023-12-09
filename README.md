@@ -7,9 +7,10 @@ Estimation Maximization (EM) is a general-purpose iterative algorithm used in ma
 This **pre_pie.R** script is designed for processing DNA methylation data. Methylation data is often converted from beta values to M values for statistical analysis. M values are the logit transformation of the beta values and provide a more statistically robust framework for differential analysis. The script then prepares for k-means clustering by extracting the probe IDs from the original dataset and saving them. In k-means clustering, the 'elbow method' is a heuristic used to determine the number of clusters. The elbow graph plots the WSS against the number of clusters, and the 'elbow' point – where the rate of decrease sharply changes – suggests the appropriate number of clusters. A function is called to create this plot for up to 10 clusters. The script involves several steps denoted below.
 
 
-The differential methylation EM K-means workflow comprises the following steps.
-Phases 1-3 of the EM k-means algorithm are done using the pip5.R script.
-Phase 4 requires the user to manually create a new em_see.csv file based on the previous iterations (Conv. A - Conv. E), then run the script pip_opt5.R
+**The differential methylation EM K-means workflow comprises the following steps.**
+
+Phases 1-3 of the EM k-means algorithm use the **pip5.R** script.
+Phase 4 requires the user to manually create a new em_see.csv file based on the previous iterations (Conv. A - Conv. E), then run the script **pip_opt5.R**
 
 Phase 1, termed Initialization (e0), starts with using all available probes as a baseline, creating an initial (probe ✕ sample) matrix with rows for each DNA CpG probe, excluding any NA values. This matrix is clustered via k-means clustering. Each cluster is scored based on accuracy to the diagnosed  Brakk stage, thereby predicting methylation signature associated with AD severity.
 
