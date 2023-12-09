@@ -1,3 +1,10 @@
+Please note that I did not develop this script but rather used Steve Horvath's script that accompanied his "DNA methylation age of human tissues
+and cell types" paper.
+
+Horvath, S. (2013). DNA methylation age of human tissues and cell types. Genome Biology, 14(10), R115. https://doi.org/10.1186/gb-2013-14-10-r115
+
+-----------------------------------------
+
 To use the 450k Illumina data instead of the 27k data provided in the code, you'll need to make the following changes:
 
 1. Replace the probe annotation file for 450k data:
