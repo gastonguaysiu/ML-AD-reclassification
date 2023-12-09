@@ -24,5 +24,5 @@ Phase 3 follows a process similar to the Estimation Maximization Inner Loop in P
 
 Phase 4, the Estimation Maximization Optimization, saves the probe list that yields the best results in Phase 3 and removes them from the potential probe pool. The algorithm returns to Phases 1-3, using fewer probes, and iterates five times (Conv. A - Conv. E). Finally, the list of probes from the previous five instances is initialized at the start of Phase 2. In contrast, the rest of the probes remain available to be added and exchanged during the EM cycles, resulting in an optimized list of probes. The end of Phase 3 with the new probes is where our optimized list of CpG probes is finalized.
 
-![flowchar](https://github.com/gastonguaysiu/ML-AD-reclassification/blob/main/flowchat_EMAD.png?raw=true)
+![flowchar](https://github.com/gastonguaysiu/ML-AD-reclassification/blob/main/flowchart_EMAD.png?raw=true)
 
