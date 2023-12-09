@@ -4,7 +4,7 @@ Horvath, S. (2013). DNA methylation age of human tissues and cell types. Genome 
 
 -----------------------------------------
 
-In this section, I wrote in the data folder to build boxplots to evaluate my machine learning (ML) model by comparing its classification of Alzheimer's disease (AD) patients with clinical categorizations. Our primary focus was analyzing chronological and DNA methylation (DNAm) age.
+I wrote in the data folder to build boxplots to evaluate my machine learning (ML) model by comparing its classification of Alzheimer's disease (AD) patients with clinical categorizations. Our primary focus was analyzing chronological and DNA methylation (DNAm) age.
 
 **Key Findings and Observations**
 
