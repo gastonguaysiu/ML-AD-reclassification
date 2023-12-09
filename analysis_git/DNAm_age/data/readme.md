@@ -8,6 +8,11 @@ Braak Stage Grouping and Age Trends: An interesting observation was that patient
 
 Mean Relative Error (MRE) Insights: We observed stronger inconsistencies in MRE when comparing DNAm age with the clinically classified patient group than with our methylated-classified groups.
 
+![clinical_def](https://github.com/gastonguaysiu/ML-AD-reclassification/blob/main/analysis_git/DNAm_age/data/clinical_def.png?raw=true)
+
+![methylation_ML_Def](https://github.com/gastonguaysiu/ML-AD-reclassification/blob/main/analysis_git/DNAm_age/data/meth_def.png?raw=true)
+
+
 **Implications and Validity of the ML Algorithm**
 
 Our findings reveal a notable trend: ML-classified patients exhibited a more consistent increased chronological age and DNAm age aligned with AD risk and progression. This trend is a key indicator of the ML algorithm's validity, as age is a well-known risk factor in the development and progression of AD. The mean relative error (MRE) values in these groups showed enhanced consistency, further underscoring our ML model's effectiveness in categorizing AD patients.
