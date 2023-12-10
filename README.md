@@ -5,7 +5,7 @@ Estimation Maximization (EM) is a general-purpose iterative algorithm used in ma
 
 **The differential methylation EM K-means workflow comprises the following steps.**
 
-Phases 1-3 of the EM k-means algorithm use the **pip5.R** script.
+Phases 1-3 of the EM k-means algorithm use the **pip5.R** script. Each new iteration requires a new em_see.csv, mval_all.csv and bval_all.csv files, the unused/non-selected subset of CpG probes from the previous iteration. The process of building these new files for each iteration done by running the **alt_see.R** script.
 Phase 4 requires the user to manually create a new em_see.csv file based on the previous iterations (Conv. A - Conv. E), then run the script **pip_opt5.R**
 
 Phase 1, termed Initialization (e0), starts with using all available probes as a baseline, creating an initial (probe ✕ sample) matrix with rows for each DNA CpG probe, excluding any NA values. This matrix is clustered via k-means clustering. Each cluster is scored based on accuracy to the diagnosed  Brakk stage, thereby predicting methylation signature associated with AD severity.
