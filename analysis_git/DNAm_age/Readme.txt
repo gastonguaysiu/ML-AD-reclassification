@@ -20,7 +20,9 @@ R Copy code
 probeAnnotation21kdatMethUsed = read.csv("your_450k_corresponding_21k_CpG_sites_file.csv")
 
 3. Read DNA methylation data:
-Replace the input data file (13059_2013_3156_MOESM26_ESM.csv) with your own 450k Illumina DNA methylation data file. Ensure the file is formatted similarly, with samples in columns and probes in rows.
+Replace the input data file (13059_2013_3156_MOESM26_ESM.csv) with your 450k Illumina DNA methylation data file. Ensure the file is formatted similarly, with samples in columns and probes in rows.
+ - My file named t26I.csv is missing due to the size of the file
+
 
 R Copy code
 dat0 = read.csv.sql("your_450k_methylation_data_file.csv")
