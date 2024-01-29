@@ -1,22 +1,15 @@
+In this section, I wrote a script to build boxplots to evaluate my machine learning (ML) model by comparing its classification of Alzheimer's disease (AD) patients with clinical categorizations. Our primary focus was analyzing chronological and DNA methylation (DNAm) age. This folder contains all the output data for the analysis on DNAm age
 
+Key Findings and Observations
 
-The run_ctrl0II.R analyzed CpG sites and associated genes linked to methylomic-classified Alzheimer's disease (AD) patients. These CpG sites were significant in our adjusted p-value tests, indicating their potential role in varying levels of Alzheimer's severity. These AD subgroups corresponded to their unique methylation signatures and approximated Braak stages.
+Age-Based Classification Analysis: Comparing clinically categorized and ML-classified AD patients. We noted a broader spread in data when patients were categorized by chronological age compared to DNAm age.
 
-**Pseudo-Intermediate AD Cluster Analysis (cl2)**
+Braak Stage Grouping and Age Trends: An interesting observation was that patients in the intermediate Braak stage group exhibited a higher average age than those in the advanced AD group, evident in both DNAm and chronological age metrics.
 
-In the cluster we've labelled as pseudo-intermediate AD (cl2), our analysis uncovered 2836 genes significantly associated with differentially methylated CpG sites. These genes were isolated using a threshold of an adjusted p-value < 0.01 and an average M-value difference greater than Zmax = z1. This comparison was made against a pseudo-control group, which served as our baseline for methylation levels.
+Mean Relative Error (MRE) Insights: We observed stronger inconsistencies in MRE when comparing DNAm age with the clinically classified patient group than with our methylated-classified groups.
 
-**Pseudo-Advanced AD Cluster Analysis (cl3)**
+Implications and Validity of the ML Algorithm
 
-Similarly, in the pseudo-advanced AD cluster (cl3), we identified 8737 significantly associated genes. This analysis also used the pseudo-control group as a reference.
+Our findings reveal a notable trend: ML-classified patients exhibited a more consistent increased chronological age and DNAm age aligned with AD risk and progression. This trend is a key indicator of the ML algorithm's validity, as age is a well-known risk factor in the development and progression of AD. The mean relative error (MRE) values in these groups showed enhanced consistency, further underscoring our ML model's effectiveness in categorizing AD patients.
 
-**Comparison with Known AD Genes**
-
-To determine the significance of these findings, we compared the isolated genes in both cl2 and cl3 with known AD-associated genes. Intriguingly, our pseudo-intermediate cluster (cl2) contained 247 of the 1554 recognized AD genes, while the pseudo-advanced cluster (cl3) included 738, as illustrated in Figure 2.
-
-Our results showed that 15.89% of genes in cl2 and 46.85% in cl3 matched with known AD genes, bolstering the epigenetic progenitor model's assertion that epigenetic modifications can mirror genetic mutations. The identified differentially methylated CpG sites are potentially linked to gene dysregulation observed in AD progression, offering new perspectives in understanding the disease.
-
-**Enrichment Analysis Using Gene Ontology (GO) Terms**
-
-We extended our analysis to include an enrichment assessment with Gene Ontology (GO) terms. This revealed significant overlaps in enriched GO terms between our ML clusters and those known in AD, suggesting strong functional relationships among the isolated genes. These overlaps were characterized by lower average adjusted p-values and higher average gene counts per enriched GO term, indicating a close association with established Alzheimer's disease GO enrichments.
-
+Moreover, the ML model's ability to identify novel genes and CpG sites involved in the disease contributes significantly to a deeper understanding of AD's epigenetic landscape. This enhanced understanding is crucial for a more accurate assessment of risk and progression in AD patients. By pinpointing these genetic and epigenetic markers, our ML approach opens up new avenues for personalized therapeutic strategies and early diagnosis of Alzheimer's disease. These findings validate the potential of ML in AD research and highlight its importance in advancing personalized medicine and improving patient care in the context of neurodegenerative diseases.
